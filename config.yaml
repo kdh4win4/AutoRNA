@@ -3,3 +3,6 @@ samples:
 
 fastq_dir: "data/raw"
 qc_dir: "data/qc"
+
+reference:
+  star_index: "ref/star_index"
