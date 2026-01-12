@@ -1,0 +1,16 @@
+name: autorna
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - snakemake
+  - fastp
+  - star
+  - r-base
+  - pip
+  - pip:
+      - streamlit
+      - fastapi
+      - uvicorn
